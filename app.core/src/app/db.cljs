@@ -306,6 +306,23 @@
    :warning "#fa0c0c"
    :warning2 "#fa7b0c"})
 
+(def norte
+  {:themename "norte"
+   :mainfg "#eceff4"
+   :mainbg "#2E3440"
+   :keyword "#88c0d0"
+   :builtin "#81a1c1"
+   :string  "#a3be8c"
+   :functionname "#ebcb8b"
+   :variable "#e5e9f0"
+   :type "#8fbcbb"
+   :constant "#d4d4d4"
+   :comment "#d8dee9"
+   :selection "#234044"
+   :warning "#bf616a"
+   :warning2 "#d08770"})
+
+
 (def contrastcolors
   [:mainfg :keyword :builtin :string :functionname :variable :type
    :constant :comment])

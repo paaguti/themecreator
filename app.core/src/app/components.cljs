@@ -49,7 +49,9 @@
     [#(db/switch-theme db/silkworm) "silkworm"]
     [#(db/switch-theme db/metalheart) "metalheart"]
     [#(db/switch-theme db/breezy-fall) "breezy-fall"]
-    [#(db/switch-theme db/thursday) "thursday"]]])
+    [#(db/switch-theme db/thursday) "thursday"]
+    [#(db/switch-theme db/norte) "norte"]
+    ]])
 
 (defn language-select
   []
@@ -128,7 +130,7 @@
    [custom-color-input-component :saturation "S: "]])
 
 (defn color-component [facename]
-  [:div.colorcomponent 
+  [:div.colorcomponent
    [:div.row.themeface
     [:label.colortitle.col-xs-4 (name facename)]
     [:input.col-xs-3.colorinput.col-xs-offset-1
