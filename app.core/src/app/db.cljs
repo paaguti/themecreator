@@ -35,20 +35,20 @@
    :warning2     "#ff8800"})
 
 (def white-sand
-  {:themename    "white-sand"
-   :mainbg       "#f5ebe1"                ;
-   :mainfg       "#585858"
-   :keyword      "#4a858c"
-   :builtin      "#1a8591"
-   :string       "#b3534b"
-   :functionname "#bd745e"
-   :variable     "#476238"
-   :type         "#8c4a79"
-   :constant     "#697024"
-   :comment      "#a9a9a9"
-   :selection    "#d6d883"
-   :warning      "#ff1276"
-   :warning2     "#ff4d12"})
+  {:themename "white-sand"
+   :mainbg  "#f5ebe1"                ;
+   :mainfg  "#585858"
+   :keyword  "#4a858c"
+   :builtin  "#1a8591"
+   :string  "#b3534b"
+   :functionname  "#bd745e"
+   :variable  "#476238"
+   :type  "#8c4a79"
+   :constant  "#697024"
+   :comment  "#a9a9a9"
+   :selection  "#9cfcec"
+   :warning  "#ff1276"
+   :warning2  "#ff4d12"})
 
 (def warm-night
   {:themename    "warm-night"
@@ -90,13 +90,13 @@
    :builtin      "#7b4135"
    :string       "#305f5e"
    :functionname "#714355"
-   :variable     "#3f5b32"
-   :type         "#634575"
-   :constant     "#64502f"
-   :comment      "#949494"
-   :selection    "#d6d883"
-   :warning      "#fa0c0c"
-   :warning2     "#fa7b0c"})
+   :variable "#3f5b32"
+   :type "#634575"
+   :constant "#64502f"
+   :comment "#949494"
+   :selection "#9cfcec"
+   :warning "#fa0c0c"
+   :warning2 "#fa7b0c"})
 
 (def soft-charcoal
   {:themename    "soft-charcoal"
@@ -138,13 +138,13 @@
    :builtin      "#c4cbee"
    :string       "#e6c2db"
    :functionname "#f1c1bd"
-   :variable     "#e1c9aa"
-   :type         "#c1d2b1"
-   :constant     "#a3d6cc"
-   :comment      "#5d5d5d"
-   :selection    "#3e8993"
-   :warning      "#e81050"
-   :warning2     "#e86310"})
+   :variable "#e1c9aa"
+   :type "#c1d2b1"
+   :constant "#a3d6cc"
+   :comment "#5d5d5d"
+   :selection "#3c8c8c"
+   :warning "#e81050"
+   :warning2 "#e86310"})
 
 (def bergen
   {:themename    "bergen"
