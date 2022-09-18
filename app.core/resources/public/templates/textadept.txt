@@ -22,6 +22,7 @@
 -- along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 -- This file is not part of TextAdept
+-- This theme will work with TextAdept 11.4 or older
 local view, colors, styles = view, lexer.colors, lexer.styles
 
 colors.fg1      = {{mainfg}}
