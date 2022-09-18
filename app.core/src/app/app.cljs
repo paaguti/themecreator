@@ -25,6 +25,7 @@
 (def atomtemplate (atom ""))
 (def emacstemplate (atom ""))
 (def tatemplate (atom ""))
+(def ta5template (atom ""))
 (def vimtemplate (atom ""))
 (def gnometerminaltemplate (atom ""))
 (def vscodetemplate (atom ""))
@@ -109,7 +110,15 @@
    [:a {:href "#" :id "textadeptlink" :on-click
         #(create-blob (generate-template-textadept @tatemplate) "textadeptlink"
                       (str (:themename @app-db) ".lua"))}
-    "Textadept"]])
+    "Textadept <= 11.4"]])
+
+(defn template-download-textadept5
+  []
+  [:li
+   [:a {:href "#" :id "textadept5link" :on-click
+        #(create-blob (generate-template-textadept @ta5template) "textadept5link"
+                      (str (:themename @app-db) ".lua"))}
+    "Textadept > 11.4"]])
 
 
 (defn template-select-component
@@ -128,6 +137,7 @@
     [template-download "emacslink" "Emacs"
      (str (:themename @app-db) "-theme.el") @emacstemplate ]
     [template-download-textadept]
+    [template-download-textadept5]
     [template-download "vimlink" "Vim"
      (str (:themename @app-db) ".vim") @vimtemplate]
     [template-download "gnometerminallink" "Gnome Terminal"
@@ -197,6 +207,7 @@
   (GET "templates/tmtheme.txt" tmthemetemplate)
   (GET "templates/emacs.txt" emacstemplate)
   (GET "templates/textadept.txt" tatemplate)
+  (GET "templates/textadept5.txt" ta5template)
   (GET "templates/vim.txt" vimtemplate)
   (GET "templates/gnome-terminal.txt" gnometerminaltemplate)
   (GET "templates/vscode/package.json" vscodepackagejsontemplate)
