@@ -250,13 +250,13 @@
    :builtin      "#0073b5"
    :string       "#3b4bab"
    :functionname "#ad4271"
-   :variable     "#a74f31"
-   :type         "#76690b"
-   :constant     "#a74f31"
-   :comment      "#a9a9a9"
-   :selection    "#f9f7c8"
-   :warning      "#ff1276"
-   :warning2     "#ff4d12"})
+   :variable "#a74f31"
+   :type "#76690b"
+   :constant "#a74f31"
+   :comment "#a9a9a9"
+   :selection "#dbece3"
+   :warning "#ff1276"
+   :warning2 "#ff4d12"})
 
 (def metalheart
   {:themename    "metalheart"
