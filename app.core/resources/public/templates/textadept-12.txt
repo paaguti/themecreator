@@ -45,6 +45,12 @@ colors.selection = {{selection}}
 colors.warning   = {{warning}}
 colors.warning2  = {{warning2}}
 
+-- 'Normal' colors. Used in some modules
+colors.red = 0x000099
+colors.green = 0x009900
+colors.blue = 0xCC6600
+colors.orange = 0x0066CC
+
 -- Default font.
 if not font then
   font = WIN32 and 'Consolas' or OSX and 'Monaco' or
@@ -104,9 +110,9 @@ styles[lexer.VARIABLE_BUILTIN] =  {fore = colors.warning, bold=true}
 -- styles.pseudoclass = {}
 -- styles.pseudoelement = {}
 -- Diff.
-styles.addition = {fore = colors.str}
-styles.deletion = {fore = colors.warning}
-styles.change = {fore = colors.warning2}
+styles.addition = {fore = colors.green}
+styles.deletion = {fore = colors.red}
+styles.change = {fore = colors.blue}
 -- HTML.
 styles.tag_unknown = styles.tag .. {italics = true}
 styles.attribute_unknown = styles.attribute .. {italics = true}
