@@ -112,6 +112,14 @@
                       (str (:themename @app-db) ".lua"))}
     title]])
 
+;; (defn template-download-textadept12
+;;   []
+;;   [:li
+;;    [:a {:href "#" :id "textadeptlink12" :on-click
+;;         #(create-blob (generate-template-textadept @ta12template) "textadeptlink12"
+;;                       (str (:themename @app-db) ".lua"))}
+;;     "Textadept-12"]])
+
 
 (defn template-select-component
   []
@@ -128,8 +136,8 @@
      (str (:themename @app-db) ".tmTheme") @tmthemetemplate]
     [template-download "emacslink" "Emacs"
      (str (:themename @app-db) "-theme.el") @emacstemplate ]
-    [template-download-textadept "talink"   "Textadept"    @tatemplate]
-    [template-download-textadept "ta12link" "Textadept 12" @ta12template]
+    [template-download-textadept "textadeptlink"   "TextAdept"    @tatemplate]
+    [template-download-textadept "textadeptlink12" "TextAdept 12" @ta12template]
     [template-download "vimlink" "Vim"
      (str (:themename @app-db) ".vim") @vimtemplate]
     [template-download "gnometerminallink" "Gnome Terminal"
