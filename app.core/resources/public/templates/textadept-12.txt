@@ -50,6 +50,7 @@ colors.red = 0x000099
 colors.green = 0x009900
 colors.blue = 0xCC6600
 colors.orange = 0x0066CC
+colors.yellow = 0xCCCC66
 
 -- Default font.
 if not font then
