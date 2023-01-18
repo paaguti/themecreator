@@ -65,7 +65,7 @@ if not size then size = OSX and 12 or 11 end
 ui.find.entry_font = font .. ' ' .. (size - 1)
 -- Predefined styles.
 styles[view.STYLE_DEFAULT] = { font = font, size = size, fore = colors.fg1, back = colors.bg1}
-styles[view.STYLE_LINENUMBER] = {fore = colors.fg1, back = colors.bg2}
+styles[view.STYLE_LINENUMBER] = {fore = colors.fg6, back = colors.bg2}
 styles[view.STYLE_BRACELIGHT] = {fore = colors.func,back=colors.bg2, bold = true}
 styles[view.STYLE_BRACEBAD] = {fore=colors.warning,back=colors.bg3, bold=true}
 -- styles[view.STYLE_CONTROLCHAR] = {}
