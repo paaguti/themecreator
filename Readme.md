@@ -33,7 +33,7 @@ Download the textmate theme, then follow your editors instructions. For Visual S
 Download the emacs file. Add a fitting package description to the first line. You can try your new theme by visiting your new theme with `C-x C-f <filename.el>`. You can install your new theme with: `M-x package-install-file <filename.el>`.
 
 ### TextAdept:
-Download the TextAdept file. Copy it into your ~/.textadept/themes directory, edit your preferences to use it and restart TextAdept.
+Download the TextAdept file. Copy it into your ~/.textadept/themes directory, edit your preferences to use it and restart TextAdept. Use Textadept 12 for the development version.
 
 ### Vim:
 Download the vim theme and copy it to your `colors` folder. For Vim that's usually `~/.vim/colors`, for Neovim it's `~/.config/nvim/colors` .
