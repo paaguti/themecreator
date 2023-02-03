@@ -322,6 +322,38 @@
    :warning      "#bf616a"
    :warning2     "#d08770"})
 
+(def zeno
+  {:themename    "zeno"
+   :mainbg       "#282A36"
+   :mainfg       "#E8F0FF"
+   :builtin      "#BB98FC"
+   :keyword      "#66D9EF"
+   :string       "#C1CAFF"
+   :functionname "#84B5FF"
+   :variable     "#5FCA81"
+   :type         "#66D9EF"
+   :constant     "#A6E22E"
+   :comment      "#6F7181"
+   :selection    "#000000"
+   :warning      "#FF84C9"
+   :warning2     "#FF5996"})
+
+(def arjen
+  {:themename   "arjengrey"
+   :mainfg       "#bdc3ce"
+   :mainbg       "#2a2f38"
+   :builtin      "#eacc8c"
+   :keyword      "#b894b0"
+   :string       "#a8c194"
+   :functionname "#909fab"
+   :variable     "#8294ac"
+   :type         "#a0a5a0"
+   :constant     "#8b9db0"
+   :comment      "#63747c"
+   :selection    "#3c4449"
+   :warning      "#ff0000"
+   :warning2     "#f08040"})
+
 
 (def contrastcolors
   [:mainfg :keyword :builtin :string :functionname :variable :type

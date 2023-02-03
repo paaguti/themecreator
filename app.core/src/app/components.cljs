@@ -51,6 +51,8 @@
     [#(db/switch-theme db/breezy-fall) "breezy-fall"]
     [#(db/switch-theme db/thursday) "thursday"]
     [#(db/switch-theme db/norte) "norte"]
+    [#(db/switch-theme db/zeno) "zeno"]
+    [#(db/switch-theme db/arjen) "arjen-grey"]
     ]])
 
 (defn language-select
