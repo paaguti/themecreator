@@ -354,6 +354,22 @@
    :warning      "#ff0000"
    :warning2     "#f08040"})
 
+(def wilmersdorf
+  {:themename    "wilmersdorf"
+   :mainfg       "#d3d3d3"
+   :mainbg       "#1f2024"
+   :builtin      "#7ebebd"
+   :keyword      "#819cd6"
+   :string       "#5b94ab"
+   :functionname "#cccccc"
+   :variable     "#a6c1e0"
+   :constant     "#a6c1e0"
+   :type         "#b0a2e7"
+   :comment      "#6e7899"
+   :selection    "#3c4449"
+   :warning      "#e1c1ee"
+   :warning2     "#f08040"})
+
 
 (def contrastcolors
   [:mainfg :keyword :builtin :string :functionname :variable :type

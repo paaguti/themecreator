@@ -53,6 +53,7 @@
     [#(db/switch-theme db/norte) "norte"]
     [#(db/switch-theme db/zeno) "zeno"]
     [#(db/switch-theme db/arjen) "arjen-grey"]
+    [#(db/switch-theme db/wilmersdorf) "wilmersdorf"]
     ]])
 
 (defn language-select
