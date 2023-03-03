@@ -113,14 +113,6 @@
                       (str (:themename @app-db) ".lua"))}
     title]])
 
-;; (defn template-download-textadept12
-;;   []
-;;   [:li
-;;    [:a {:href "#" :id "textadeptlink12" :on-click
-;;         #(create-blob (generate-template-textadept @ta12template) "textadeptlink12"
-;;                       (str (:themename @app-db) ".lua"))}
-;;     "Textadept-12"]])
-
 
 (defn template-select-component
   []

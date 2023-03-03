@@ -35,6 +35,7 @@
    :warning2     "#ff8800"})
 
 (def white-sand
+<<<<<<< HEAD
   {:themename    "white-sand"
    :mainbg       "#f5ebe1"                ;
    :mainfg       "#585858"
@@ -49,6 +50,22 @@
    :selection    "#d6d883"
    :warning      "#ff1276"
    :warning2     "#ff4d12"})
+=======
+  {:themename "white-sand"
+   :mainbg  "#f5ebe1"                ;
+   :mainfg  "#585858"
+   :keyword  "#4a858c"
+   :builtin  "#1a8591"
+   :string  "#b3534b"
+   :functionname  "#bd745e"
+   :variable  "#476238"
+   :type  "#8c4a79"
+   :constant  "#697024"
+   :comment  "#a9a9a9"
+   :selection  "#9cfcec"
+   :warning  "#ff1276"
+   :warning2  "#ff4d12"})
+>>>>>>> upstream/master
 
 (def warm-night
   {:themename    "warm-night"
@@ -90,6 +107,7 @@
    :builtin      "#7b4135"
    :string       "#305f5e"
    :functionname "#714355"
+<<<<<<< HEAD
    :variable     "#3f5b32"
    :type         "#634575"
    :constant     "#64502f"
@@ -97,6 +115,15 @@
    :selection    "#d6d883"
    :warning      "#fa0c0c"
    :warning2     "#fa7b0c"})
+=======
+   :variable "#3f5b32"
+   :type "#634575"
+   :constant "#64502f"
+   :comment "#949494"
+   :selection "#9cfcec"
+   :warning "#fa0c0c"
+   :warning2 "#fa7b0c"})
+>>>>>>> upstream/master
 
 (def soft-charcoal
   {:themename    "soft-charcoal"
@@ -138,6 +165,7 @@
    :builtin      "#c4cbee"
    :string       "#e6c2db"
    :functionname "#f1c1bd"
+<<<<<<< HEAD
    :variable     "#e1c9aa"
    :type         "#c1d2b1"
    :constant     "#a3d6cc"
@@ -145,6 +173,15 @@
    :selection    "#3e8993"
    :warning      "#e81050"
    :warning2     "#e86310"})
+=======
+   :variable "#e1c9aa"
+   :type "#c1d2b1"
+   :constant "#a3d6cc"
+   :comment "#5d5d5d"
+   :selection "#3c8c8c"
+   :warning "#e81050"
+   :warning2 "#e86310"})
+>>>>>>> upstream/master
 
 (def bergen
   {:themename    "bergen"
@@ -250,6 +287,7 @@
    :builtin      "#0073b5"
    :string       "#3b4bab"
    :functionname "#ad4271"
+<<<<<<< HEAD
    :variable     "#a74f31"
    :type         "#76690b"
    :constant     "#a74f31"
@@ -257,6 +295,15 @@
    :selection    "#f9f7c8"
    :warning      "#ff1276"
    :warning2     "#ff4d12"})
+=======
+   :variable "#a74f31"
+   :type "#76690b"
+   :constant "#a74f31"
+   :comment "#a9a9a9"
+   :selection "#dbece3"
+   :warning "#ff1276"
+   :warning2 "#ff4d12"})
+>>>>>>> upstream/master
 
 (def metalheart
   {:themename    "metalheart"
@@ -298,6 +345,7 @@
    :builtin      "#636792"
    :string       "#8c5c79"
    :functionname "#935c54"
+<<<<<<< HEAD
    :variable     "#7d6740"
    :type         "#56724b"
    :constant     "#28766e"
@@ -370,6 +418,15 @@
    :warning      "#e1c1ee"
    :warning2     "#f08040"})
 
+=======
+   :variable "#7d6740"
+   :type "#56724b"
+   :constant "#28766e"
+   :comment "#949494"
+   :selection "#eaec9c"
+   :warning "#fa0c0c"
+   :warning2 "#fa7b0c"})
+>>>>>>> upstream/master
 
 (def contrastcolors
   [:mainfg :keyword :builtin :string :functionname :variable :type
