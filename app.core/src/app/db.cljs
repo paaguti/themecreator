@@ -418,16 +418,6 @@
    :warning      "#e1c1ee"
    :warning2     "#f08040"})
 
-=======
-   :variable "#7d6740"
-   :type "#56724b"
-   :constant "#28766e"
-   :comment "#949494"
-   :selection "#eaec9c"
-   :warning "#fa0c0c"
-   :warning2 "#fa7b0c"})
->>>>>>> upstream/master
-
 (def contrastcolors
   [:mainfg :keyword :builtin :string :functionname :variable :type
    :constant :comment])
