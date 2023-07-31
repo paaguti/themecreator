@@ -89,6 +89,7 @@
    `(info-quoted-name ((,class (:foreground ,builtin))))
    `(info-string ((,class (:foreground ,str))))
    `(icompletep-determined ((,class :foreground ,builtin)))
+   `(sh-heredoc ((,class :foreground ,fg6 :bold t)))
    `(term ((,class (:foreground ,fg1 :background ,bg1))))
    `(term-color-black ((,class (:foreground ,bg3 :background ,bg3))))
    `(term-color-blue ((,class (:foreground ,func :background ,func))))
