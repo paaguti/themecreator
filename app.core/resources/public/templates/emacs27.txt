@@ -4,7 +4,7 @@
 
 ;; Author: {{themeauthor}}
 ;; Version: 0.1
-;; Package-Requires: ((emacs "27"))
+;; Package-Requires: ((emacs "27.1"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
 
@@ -24,7 +24,7 @@
 ;; This file is not part of Emacs.
 
 ;;; Commentary:
-
+;;; {{themename}} created by {{themeauthor}} in {{year}}
 ;;; Code:
 
 (deftheme {{themename}})
