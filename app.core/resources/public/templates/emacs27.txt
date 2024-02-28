@@ -116,7 +116,7 @@
    `(show-paren-match ((,class (:foreground ,bg1 :background ,str))))
    `(show-paren-mismatch ((,class (:foreground ,bg1 :background ,warning))))
    `(line-number ((t (:inherit fringe))))
-   `(line-number-current-line ((t (:inherit fringe :foreground ,fg6 :weight bold))))
+   `(line-number-current-line ((t (:foreground ,fg6 :background ,bg3 :weight bold))))
    `(tab-line              ((,class (:background ,bg2 :foreground ,fg4))))
    `(tab-line-tab          ((,class (:inherit tab-line))))
    `(tab-line-tab-inactive ((,class (:background ,bg2 :foreground ,fg4))))
