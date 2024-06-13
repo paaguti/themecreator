@@ -14,6 +14,7 @@
    :constant "#d4d4d4"
    :comment "#808080"
    :selection "#0000ff"
+   :cursor "#0000ff"
    :warning "#ff0000"
    :warning2 "#ff8800"})
 
@@ -31,6 +32,7 @@
    :constant "#000000"
    :comment "#606060"
    :selection "#ff0000"
+   :cursor "#ff0000"
    :warning "#ff0000"
    :warning2 "#ff8800"})
 
@@ -47,6 +49,7 @@
    :constant  "#697024"
    :comment  "#a9a9a9"
    :selection  "#9cfcec"
+   :cursor  "#9cfcec"
    :warning  "#ff1276"
    :warning2  "#ff4d12"})
 
@@ -63,6 +66,7 @@
    :constant "#bd845f"
    :comment "#5d5a58"
    :selection "#e81050"
+   :cursor "#e81050"
    :warning "#e81050"
    :warning2 "#e86310"})
 
@@ -79,6 +83,7 @@
    :constant "#64502f"
    :comment "#949494"
    :selection "#fa0c0c"
+   :cursor "#fa0c0c"
    :warning "#fa0c0c"
    :warning2 "#fa7b0c"})
 
@@ -95,6 +100,7 @@
    :constant "#64502f"
    :comment "#949494"
    :selection "#9cfcec"
+   :cursor "#9cfcec"
    :warning "#fa0c0c"
    :warning2 "#fa7b0c"})
 
@@ -111,6 +117,7 @@
    :constant "#8aa6c1"
    :comment "#808080"
    :selection "#ff6523"
+   :cursor "#ff6523"
    :warning "#ff6523"
    :warning2 "#ff2370"})
 
@@ -127,6 +134,7 @@
    :constant "#d7897c"
    :comment "#5d5d5d"
    :selection "#e81050"
+   :cursor "#e81050"
    :warning "#e81050"
    :warning2 "#e86310"})
 
@@ -143,6 +151,7 @@
    :constant "#a3d6cc"
    :comment "#5d5d5d"
    :selection "#3c8c8c"
+   :cursor "#3c8c8c"
    :warning "#e81050"
    :warning2 "#e86310"})
 
@@ -159,6 +168,7 @@
    :constant "#0081a6"
    :comment "#a9a9a9"
    :selection "#ff1276"
+   :cursor "#ff1276"
    :warning "#ff1276"
    :warning2 "#ff4d12"})
 
@@ -175,6 +185,7 @@
    :constant "#a27ea4"
    :comment "#5d5d5d"
    :selection "#e81050"
+   :cursor "#e81050"
    :warning "#e81050"
    :warning2 "#e86310"})
 
@@ -191,6 +202,7 @@
    :constant "#f03f3f"
    :comment "#808080"
    :selection "#ff6523"
+   :cursor "#ff6523"
    :warning "#ff6523"
    :warning2 "#e80f29"})
 
@@ -207,6 +219,7 @@
    :constant "#eca661"
    :comment "#5d5d5d"
    :selection "#e81050"
+   :cursor "#e81050"
    :warning "#e81050"
    :warning2 "#e86310"})
 
@@ -223,6 +236,7 @@
    :constant "#337d92"
    :comment "#909090"
    :selection "#ff0000"
+   :cursor "#ff0000"
    :warning "#ff0000"
    :warning2 "#ff8800"})
 
@@ -239,6 +253,7 @@
    :constant "#3e8c9d"
    :comment "#626262"
    :selection "#e81050"
+   :cursor "#e81050"
    :warning "#e81050"
    :warning2 "#e86310"})
 
@@ -255,6 +270,7 @@
    :constant "#a74f31"
    :comment "#a9a9a9"
    :selection "#dbece3"
+   :cursor "#dbece3"
    :warning "#ff1276"
    :warning2 "#ff4d12"})
 
@@ -271,6 +287,7 @@
    :constant "#5980a3"
    :comment "#727272"
    :selection "#ff0000"
+   :cursor "#ff0000"
    :warning "#ff0000"
    :warning2 "#ff8800"})
 
@@ -287,6 +304,7 @@
    :constant "#844c41"
    :comment "#906e86"
    :selection "#ff1276"
+   :cursor "#ff1276"
    :warning "#ff1276"
    :warning2 "#ff4d12"})
 
@@ -303,6 +321,7 @@
    :constant "#28766e"
    :comment "#949494"
    :selection "#eaec9c"
+   :cursor "#eaec9c"
    :warning "#fa0c0c"
    :warning2 "#fa7b0c"})
 

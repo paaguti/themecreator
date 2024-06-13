@@ -157,6 +157,7 @@
     [comps/color-component :string]
     [comps/color-component :type]
     [comps/color-component :variable]
+    [comps/color-component :cursor]
     [comps/color-component :selection]
     [comps/color-component :warning]
     [comps/color-component :warning2]
