@@ -15,6 +15,8 @@
    [:span (case textdecoration
             :selection {:style {:color (color @app-db)
                                 :background (textdecoration @app-db)}}
+            :cursor {:style {:color (color @app-db)
+                                :background (textdecoration @app-db)}}
             {:style {:color (color @app-db)
                      :text-decoration "underline"
                      :text-decoration-style "wavy"
@@ -35,7 +37,7 @@
    [span-component "(" :mainfg]
    [span-component "limit" :constant]
    [span-component ") " :mainfg]
-   [span-component "{" :cursor]
+   [span-component "{" :mainfg :cursor]
    [:br]
    [span-component "  var " :keyword]
    [span-component "primes " :variable]
