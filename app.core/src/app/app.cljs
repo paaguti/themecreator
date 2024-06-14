@@ -126,7 +126,7 @@
     [template-download "emacslink" "Emacs"
      (str (:themename @app-db) "-theme.el") @emacstemplate ]
     [template-download-textadept "talink"   "Textadept"    @tatemplate]
-    [template-download-textadept "ta12link" "Textadept 12" @ta12template]
+    [template-download-textadept "ta12link" "Textadept 14" @ta12template]
     [template-download "vimlink" "Vim"
      (str (:themename @app-db) ".vim") @vimtemplate]
     [template-download "gnometerminallink" "Gnome Terminal"
@@ -197,7 +197,7 @@
   (GET "templates/tmtheme.txt" tmthemetemplate)
   (GET "templates/emacs.txt" emacstemplate)
   (GET "templates/textadept.txt" tatemplate)
-  (GET "templates/textadept-12.txt" ta12template)
+  (GET "templates/textadept-14.txt" ta12template)
   (GET "templates/vim.txt" vimtemplate)
   (GET "templates/gnome-terminal.txt" gnometerminaltemplate)
   (GET "templates/vscode/package.json" vscodepackagejsontemplate)
