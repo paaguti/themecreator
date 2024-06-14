@@ -42,6 +42,7 @@ colors.func      = {{functionname}}
 colors.str       = {{string}}
 colors.type      = {{type}}
 colors.var       = {{variable}}
+colors.cursor    = {{cursor}}
 colors.selection = {{selection}}
 colors.warning   = {{warning}}
 colors.warning2  = {{warning2}}
@@ -86,7 +87,7 @@ styles[lexer.EMBEDDED] =  {fore = colors.builtin, back = colors.bg2}
 styles[lexer.ERROR] =  {fore = colors.warning, italic=true}
 styles[lexer.FUNCTION] = {fore = colors.func}
 styles[lexer.FUNCTION_BUILTIN] = {fore = colors.func, bold=true}
--- styles[lexer.FUNCTION_METHOD] = {}
+styles[lexer.FUNCTION_METHOD] = {fore = colors.func}
 styles[lexer.HEADING] =  {fore=colors.var}
 styles[lexer.IDENTIFIER] =  {fore=colors.var}
 styles[lexer.ITALIC] =  {italic=true}
@@ -142,7 +143,7 @@ view.element_color[view.ELEMENT_SELECTION_BACK] = colors.selection
 -- view.element_color[view.ELEMENT_SELECTION_SECONDARY_BACK] = colors.light_grey
 -- view.element_color[view.ELEMENT_SELECTION_INACTIVE_TEXT] = colors.black
 -- view.element_color[view.ELEMENT_SELECTION_INACTIVE_BACK] = colors.light_grey
-view.element_color[view.ELEMENT_CARET] = colors.fg2
+view.element_color[view.ELEMENT_CARET] = colors.cursor
 -- view.element_color[view.ELEMENT_CARET_ADDITIONAL] =
 if view ~= ui.command_entry then
   view.element_color[view.ELEMENT_CARET_LINE_BACK] = colors.bg3 | 0x60000000
