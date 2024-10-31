@@ -325,6 +325,140 @@
    :error "#fa0c0c"
    :warning "#fa7b0c"})
 
+(def nordic-light
+  {:themename "nordic-light"
+   :mainfg "#3B4252"
+   :mainbg "#E5E9F0"
+   :builtin "#29838D"
+   :keyword "#3B6EA8"
+   :constant "#97365B"
+   :comment "#525252"
+   :functionname "#29838D"
+   :string "#4F894C"
+   :type "#9A7500"
+   :variable "#842879"
+   :cursor "#c7c7c7"
+   :selection "#B8C5DB"
+   :error "#ff6655"
+   :warning "#dd8844"})
+
+(def nordic-aurora
+  {:themename "nordic-aurora"
+   :mainfg "#ECEFF4"
+   :mainbg "#2E3440"
+   :builtin "#B48EAD"
+   :keyword "#51afef"
+   :constant "#81A1C1"
+   :comment "#9099AB"
+   :functionname "#EBCB8B"
+   :string "#8FBCBB"
+   :type "#A3BE8C"
+   :variable "#88C0D0"
+   :cursor "#c7c7c7"
+   :selection "#4d576a"
+   :error "#BF616A"
+   :warning "#D08770"})
+
+(def nordic-night
+  {:themename "nordic-night"
+   :mainfg "#D8DEE9"
+   :mainbg "#222"
+   :builtin "#81A1C1"
+   :keyword "#81A1C1"
+   :constant "#81A1C1"
+   :comment "#8892A4"
+   :functionname "#81A1C1"
+   :string "#A3BE8C"
+   :type "#A3BE8C"
+   :variable "#88C0D0"
+   :cursor "#D8DEE9"
+   :selection "#434C5E"
+   :error "#BF616A"
+   :warning "#D08770"})
+
+(def norte
+ {:themename "norte"
+  :mainfg "#eceff4"
+  :mainbg "#2E3440"
+  :builtin "#81a1c1"
+  :keyword "#88c0d0"
+  :constant "#d4d4d4"
+  :comment "#d8dee9"
+  :functionname "#ebcb8b"
+  :string "#a3be8c"
+  :type "#8fbcbb"
+  :variable "#e5e9f0"
+  :selection "#30555a"
+  :warning "#bf616a"
+  :warning2 "#d08770"})
+
+(def sur
+ {:themename "sur"
+  :mainfg "#3B4252"
+  :mainbg "#E5E9F0"
+  :builtin "#29838D"
+  :keyword "#3B6EA8"
+  :constant "#97365B"
+  :comment "#6a6f7c"
+  :functionname "#29838D"
+  :string "#4F894C"
+  :type "#9A7500"
+  :variable "#842879"
+  :selection "#d5dec4"
+  :warning "#99324B"
+  :warning2 "#9A7500"})
+
+(def timugrey-dark
+ {:themename "timugrey-dark"
+  :mainfg "#dfdfdf"
+  :mainbg "#2b303b"
+  :builtin "#d08770"
+  :keyword "#ffcdb6"
+  :constant "#fad4f3"
+  :comment "#9ca0a4"
+  :functionname "#d5e7f9"
+  :string "#e9ffd2"
+  :type "#ffffc1"
+  :variable "#ffa7b0"
+  :cursor "#ffcdb6"
+  :selection "#4f5b66"
+  :warning "#bf616a"
+  :warning2 "#ffcdb6"})
+
+(def kuronami
+  {:themename "kuronami"
+   :mainbg "#181a26"
+   :mainfg "#c9c9c9"
+   :builtin "#a5bad7"
+   :keyword "#a5bad7"
+   :constant "#cdb38f"
+   :comment "#7fbbe9"
+   :functionname "#fffafa"
+   :string "#65bab4"
+   :type "#cdb38f"
+   :variable "#fffafa"
+   :cursor "#e97f86"
+   :selection "#2e41ac"
+   :warning "#e97f86"
+   :warning2  "#cdb38f"})
+
+(def organic-green
+ {:themename "organic-green"
+  :mainfg "#326B6B"
+  :mainbg "#F0FFF0"
+  :builtin "#008888"
+  :keyword "#912CEE"
+  :constant "#0065CC"
+  :comment "#7F7F7F"
+  :functionname "#017df9"
+  :string "#119911"
+  :type "#008888"
+  :variable "#B8860B"
+  :cursor "#225522"
+  :selection "#C1F3CA"
+  :warning "#EF2929"
+  :warning2 "#CE5C00"})
+
 (def contrastcolors
   [:mainfg :keyword :builtin :string :functionname :variable :type
    :constant :comment])
