@@ -5,6 +5,7 @@
 
 Create Color Themes for IntelliJ Editors, Atom, Emacs, TextAdept, Textmate, Vim and Gnome Terminal.
 
+This fork contains some themes derived from the Emacs gallery. Since the colour pallete is the same, I have kept the names.
 
 Installation Instructions:
 --------------------------
@@ -30,7 +31,7 @@ Download the textmate theme, then follow your editors instructions. For Visual S
 [Generate](https://atom.io/docs/latest/hacking-atom-creating-a-theme) a new color theme from within atom. Then Download the atom theme you made with ThemeCreator, and download [base.less](https://github.com/mswift42/themecreator/raw/master/base.less) and [syntax-variables.less](https://github.com/mswift42/themecreator/raw/master/syntax-variables.less). Now copy the 3 files, `colors.less`, `base.less` and `syntax-variables.less` into the `styles/` folder of the Atom generated theme.
 
 ### Emacs:
-Download the emacs file. Add a fitting package description to the first line. You can try your new theme by visiting your new theme with `C-x C-f <filename.el>`. You can install your new theme with: `M-x package-install-file <filename.el>`.
+Download the emacs file. Copy the file to your ~/.emacs.d/themes directory and load it with `M-x load-theme`
 
 ### TextAdept:
 Download the TextAdept file. Copy it into your ~/.textadept/themes directory, edit your preferences to use it and restart TextAdept.
