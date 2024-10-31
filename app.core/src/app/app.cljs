@@ -120,18 +120,18 @@
     [:span.caret]
     [:span.sr-only]]
    [:ul#downloadsel.dropdown-menu {:aria-labelledby "templatedrop" }
-    [template-download-intelli]
-    [template-download "tmthemelink" "Textmate"
-     (str (:themename @app-db) ".tmTheme") @tmthemetemplate]
     [template-download "emacslink" "Emacs"
      (str (:themename @app-db) "-theme.el") @emacstemplate ]
     ;; [template-download-textadept "talink"   "Textadept"    @tatemplate]
     [template-download-textadept "ta14link" "Textadept 14" @ta14template]
-    [template-download "vimlink" "Vim"
-     (str (:themename @app-db) ".vim") @vimtemplate]
     [template-download "gnometerminallink" "Gnome Terminal"
      (str (:themename @app-db) ".sh") @gnometerminaltemplate]
-    ]])
+    [template-download "vimlink" "Vim"
+     (str (:themename @app-db) ".vim") @vimtemplate]
+    [template-download-intelli]
+    [template-download "tmthemelink" "Textmate"
+     (str (:themename @app-db) ".tmTheme") @tmthemetemplate]
+     ]])
 
 (defn store-component
   []

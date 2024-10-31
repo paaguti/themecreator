@@ -55,7 +55,7 @@
     [#(db/switch-theme db/nordic-light) "nordic-light"]
     [#(db/switch-theme db/norte) "norte"]
     [#(db/switch-theme db/sur) "sur"]
-    [#(db/switch-theme db/timegrey-dark) "timegrey-dark"]
+    [#(db/switch-theme db/timugrey-dark) "timugrey-dark"]
     [#(db/switch-theme db/organic-green) "organic-green"]
     [#(db/switch-theme db/kuronami) "kuronami"]]])
 
