@@ -103,20 +103,12 @@
     "IntelliJ"]])
 
 (defn template-download-textadept
-  []
+  [id title template]
   [:li
-   [:a {:href "#" :id "ta14link" :on-click
-        #(create-blob (generate-template-textadept @ta14template) "ta14link"
+   [:a {:href "#" :id id :on-click
+        #(create-blob (generate-template-textadept template) id
                       (str (:themename @app-db) ".lua"))}
-    "Textadept 14"]])
-
-;; Obsolete
-;; (defn template-download-textadept
-;;   [:li
-;;    [:a {:href "#" :id "talink" :on-click
-;;         #(create-blob (generate-template-textadept @tatemplate) "talink"
-;;                       (str (:themename @app-db) ".lua"))}
-;;     "Textadept"]])
+    title]])
 
 (defn template-select-component
   []
@@ -128,17 +120,18 @@
     [:span.caret]
     [:span.sr-only]]
    [:ul#downloadsel.dropdown-menu {:aria-labelledby "templatedrop" }
-    [template-download "emacslink" "Emacs"
-     (str (:themename @app-db) "-theme.el") @emacstemplate ]
-    [template-download-textadept]
-    [template-download "gnometerminallink" "Gnome Terminal"
-     (str (:themename @app-db) ".sh") @gnometerminaltemplate]
-    [template-download "vimlink" "Vim"
-     (str (:themename @app-db) ".vim") @vimtemplate]
     [template-download-intelli]
     [template-download "tmthemelink" "Textmate"
      (str (:themename @app-db) ".tmTheme") @tmthemetemplate]
-     ]])
+    [template-download "emacslink" "Emacs"
+     (str (:themename @app-db) "-theme.el") @emacstemplate ]
+    ;; [template-download-textadept "talink"   "Textadept"    @tatemplate]
+    [template-download-textadept "ta14link" "Textadept 14" @ta14template]
+    [template-download "vimlink" "Vim"
+     (str (:themename @app-db) ".vim") @vimtemplate]
+    [template-download "gnometerminallink" "Gnome Terminal"
+     (str (:themename @app-db) ".sh") @gnometerminaltemplate]
+    ]])
 
 (defn store-component
   []
