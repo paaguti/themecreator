@@ -15,8 +15,8 @@
    :comment "#808080"
    :selection "#0000ff"
    :cursor "#0000ff"
-   :warning "#ff0000"
-   :warning2 "#ff8800"})
+   :error "#ff0000"
+   :warning "#ff8800"})
 
 
 (def white
@@ -33,8 +33,8 @@
    :comment "#606060"
    :selection "#ff0000"
    :cursor "#ff0000"
-   :warning "#ff0000"
-   :warning2 "#ff8800"})
+   :error "#ff0000"
+   :warning "#ff8800"})
 
 (def white-sand
   {:themename "white-sand"
@@ -50,8 +50,8 @@
    :comment  "#a9a9a9"
    :selection  "#9cfcec"
    :cursor  "#9cfcec"
-   :warning  "#ff1276"
-   :warning2  "#ff4d12"})
+   :error  "#ff1276"
+   :warning  "#ff4d12"})
 
 (def warm-night
   {:themename "warm-night"
@@ -67,8 +67,8 @@
    :comment "#5d5a58"
    :selection "#e81050"
    :cursor "#e81050"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def oldlace
   {:themename "Oldlace"
@@ -84,8 +84,8 @@
    :comment "#949494"
    :selection "#fa0c0c"
    :cursor "#fa0c0c"
-   :warning "#fa0c0c"
-   :warning2 "#fa7b0c"})
+   :error "#fa0c0c"
+   :warning "#fa7b0c"})
 
 (def greymatters
   {:themename "Greymatters"
@@ -101,8 +101,8 @@
    :comment "#949494"
    :selection "#9cfcec"
    :cursor "#9cfcec"
-   :warning "#fa0c0c"
-   :warning2 "#fa7b0c"})
+   :error "#fa0c0c"
+   :warning "#fa7b0c"})
 
 (def soft-charcoal
   {:themename "soft-charcoal"
@@ -118,8 +118,8 @@
    :comment "#808080"
    :selection "#ff6523"
    :cursor "#ff6523"
-   :warning "#ff6523"
-   :warning2 "#ff2370"})
+   :error "#ff6523"
+   :warning "#ff2370"})
 
 (def munich
   {:themename "munich"
@@ -135,8 +135,8 @@
    :comment "#5d5d5d"
    :selection "#e81050"
    :cursor "#e81050"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def reykjavik
   {:themename "reykjavik"
@@ -152,8 +152,8 @@
    :comment "#5d5d5d"
    :selection "#3c8c8c"
    :cursor "#3c8c8c"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def bergen
   {:themename "bergen"
@@ -169,8 +169,8 @@
    :comment "#a9a9a9"
    :selection "#ff1276"
    :cursor "#ff1276"
-   :warning "#ff1276"
-   :warning2 "#ff4d12"})
+   :error "#ff1276"
+   :warning "#ff4d12"})
 
 (def madrid
   {:themename "madrid"
@@ -186,8 +186,8 @@
    :comment "#5d5d5d"
    :selection "#e81050"
    :cursor "#e81050"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def soft-morning
   {:themename "soft-morning"
@@ -203,8 +203,8 @@
    :comment "#808080"
    :selection "#ff6523"
    :cursor "#ff6523"
-   :warning "#ff6523"
-   :warning2 "#e80f29"})
+   :error "#ff6523"
+   :warning "#e80f29"})
 
 (def magonyx
   {:themename "magonyx"
@@ -220,8 +220,8 @@
    :comment "#5d5d5d"
    :selection "#e81050"
    :cursor "#e81050"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def light-kiss
   {:themename "light-kiss"
@@ -237,8 +237,8 @@
    :comment "#909090"
    :selection "#ff0000"
    :cursor "#ff0000"
-   :warning "#ff0000"
-   :warning2 "#ff8800"})
+   :error "#ff0000"
+   :warning "#ff8800"})
 
 (def foggy-night
   {:themename "foggy-night"
@@ -254,8 +254,8 @@
    :comment "#626262"
    :selection "#e81050"
    :cursor "#e81050"
-   :warning "#e81050"
-   :warning2 "#e86310"})
+   :error "#e81050"
+   :warning "#e86310"})
 
 (def silkworm
   {:themename "silkworm"
@@ -271,8 +271,8 @@
    :comment "#a9a9a9"
    :selection "#dbece3"
    :cursor "#dbece3"
-   :warning "#ff1276"
-   :warning2 "#ff4d12"})
+   :error "#ff1276"
+   :warning "#ff4d12"})
 
 (def metalheart
   {:themename "metalheart"
@@ -288,8 +288,8 @@
    :comment "#727272"
    :selection "#ff0000"
    :cursor "#ff0000"
-   :warning "#ff0000"
-   :warning2 "#ff8800"})
+   :error "#ff0000"
+   :warning "#ff8800"})
 
 (def breezy-fall
   {:themename "breezy-fall"
@@ -305,8 +305,8 @@
    :comment "#906e86"
    :selection "#ff1276"
    :cursor "#ff1276"
-   :warning "#ff1276"
-   :warning2 "#ff4d12"})
+   :error "#ff1276"
+   :warning "#ff4d12"})
 
 (def thursday
   {:themename "thursday"
@@ -322,8 +322,8 @@
    :comment "#949494"
    :selection "#eaec9c"
    :cursor "#eaec9c"
-   :warning "#fa0c0c"
-   :warning2 "#fa7b0c"})
+   :error "#fa0c0c"
+   :warning "#fa7b0c"})
 
 (def contrastcolors
   [:mainfg :keyword :builtin :string :functionname :variable :type

@@ -48,8 +48,8 @@
       (var     "{{variable}}")
       (cursor  "{{cursor}}")
       (selection "{{selection}}")
-      (warning   "{{warning}}")
-      (warning2  "{{warning2}}")
+      (error   "{{error}}")
+      (warning  "{{warning}}")
       (unspec   (when (>= emacs-major-version 29) 'unspecified)))
   (custom-theme-set-faces
    '{{themename}}
@@ -73,7 +73,13 @@
    `(hl-line ((,class (:background  ,bg2))))
    `(fringe ((,class (:background ,bg2 :foreground ,fg4))))
    `(cursor ((,class (:background ,cursor))))
-   `(isearch ((,class (:bold t :foreground ,warning :background ,bg3))))
+   `(error ((,class (:foreground ,error))))
+   `(warning ((,class (:foreground ,warning))))
+   `(isearch ((,class (:bold t :foreground ,error :background ,bg3))))
+   `(vertical-border ((,class (:foreground ,fg3))))
+   `(minibuffer-prompt ((,class (:bold t :foreground ,keyword))))
+   `(default-italic ((,class (:italic t))))
+   `(link ((,class (:foreground ,const :underline t))))
 {{#hasdarkbg}}
    `(mode-line ((,class (:box (:line-width 1 :color nil) :bold t :foreground ,fg4 :background ,bg3))))
    `(mode-line-inactive ((,class (:box (:line-width 1 :color nil :style pressed-button) :foreground ,var :background ,bg2 :weight normal))))
@@ -85,10 +91,6 @@
    `(mode-line-buffer-id ((,class (:bold t :foreground ,func :background ,unspec))))
    `(mode-line-highlight ((,class (:foreground ,keyword :box nil :weight bold))))
    `(mode-line-emphasis ((,class (:foreground ,fg1))))
-   `(vertical-border ((,class (:foreground ,fg3))))
-   `(minibuffer-prompt ((,class (:bold t :foreground ,keyword))))
-   `(default-italic ((,class (:italic t))))
-   `(link ((,class (:foreground ,const :underline t))))
    `(org-code ((,class (:foreground ,fg2))))
    `(org-hide ((,class (:foreground ,fg4))))
    `(org-level-1 ((,class (:bold t :foreground ,fg2 :height 1.1))))
@@ -141,12 +143,11 @@
    `(js2-jsdoc-value ((,class (:foreground ,str))))
    `(js2-private-member ((,class (:foreground ,fg3))))
    `(js3-warning-face ((,class (:underline ,keyword))))
-   `(js3-error-face ((,class (:underline ,warning))))
+   `(js3-error-face ((,class (:underline ,error))))
    `(js3-external-variable-face ((,class (:foreground ,var))))
    `(js3-function-param-face ((,class (:foreground ,fg2))))
    `(js3-jsdoc-tag-face ((,class (:foreground ,keyword))))
    `(js3-instance-member-face ((,class (:foreground ,const))))
-   `(warning ((,class (:foreground ,warning))))
    `(ac-completion-face ((,class (:underline t :foreground ,keyword))))
    `(info-quoted-name ((,class (:foreground ,builtin))))
    `(info-string ((,class (:foreground ,str))))
@@ -206,7 +207,7 @@
    `(helm-ff-directory ((,class (:foreground ,func :background ,bg1 :weight bold))))
    `(helm-ff-file ((,class (:foreground ,fg1 :background ,bg1 :weight normal))))
    `(helm-ff-executable ((,class (:foreground ,var :background ,bg1 :weight normal))))
-   `(helm-ff-invalid-symlink ((,class (:foreground ,warning2 :background ,bg1 :weight bold))))
+   `(helm-ff-invalid-symlink ((,class (:foreground ,warning :background ,bg1 :weight bold))))
    `(helm-ff-symlink ((,class (:foreground ,keyword :background ,bg1 :weight bold))))
    `(helm-ff-prefix ((,class (:foreground ,bg1 :background ,keyword :weight normal))))
    `(helm-grep-cmd-line ((,class (:foreground ,fg1 :background ,bg1))))
@@ -252,7 +253,7 @@
    `(jde-java-font-lock-number-face ((t (:foreground ,var))))
    `(yas-field-highlight-face ((t (:background ,selection))))
    `(show-paren-match ((,class (:foreground ,bg1 :background ,str))))
-   `(show-paren-mismatch ((,class (:foreground ,bg1 :background ,warning)))))
+   `(show-paren-mismatch ((,class (:foreground ,bg1 :background ,error)))))
 
   ;; emacs >= 26.1
   (when (>= emacs-major-version 26)
@@ -274,7 +275,7 @@
   (when (>= emacs-major-version 28)
     (custom-theme-set-faces
      '{{themename}}
-     `(tab-line-tab-modified ((,class (:foreground ,warning2 :weight bold))))))
+     `(tab-line-tab-modified ((,class (:foreground ,warning :weight bold))))))
   (when (boundp 'font-lock-regexp-face)
     (custom-theme-set-faces
      '{{themename}}

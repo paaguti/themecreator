@@ -159,8 +159,8 @@
     [comps/color-component :variable]
     [comps/color-component :cursor]
     [comps/color-component :selection]
+    [comps/color-component :error]
     [comps/color-component :warning]
-    [comps/color-component :warning2]
     [:br]
     [:div.butsection.row
      [:div.col-xs-3
