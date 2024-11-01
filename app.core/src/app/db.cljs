@@ -389,8 +389,8 @@
   :type "#8fbcbb"
   :variable "#e5e9f0"
   :selection "#30555a"
-  :warning "#bf616a"
-  :warning2 "#d08770"})
+  :error "#bf616a"
+  :warning "#d08770"})
 
 (def sur
  {:themename "sur"
@@ -405,8 +405,8 @@
   :type "#9A7500"
   :variable "#842879"
   :selection "#d5dec4"
-  :warning "#99324B"
-  :warning2 "#9A7500"})
+  :error "#99324B"
+  :warning "#9A7500"})
 
 (def timugrey-dark
  {:themename "timugrey-dark"
@@ -422,8 +422,8 @@
   :variable "#ffa7b0"
   :cursor "#ffcdb6"
   :selection "#4f5b66"
-  :warning "#bf616a"
-  :warning2 "#ffcdb6"})
+  :error "#bf616a"
+  :warning "#ffcdb6"})
 
 (def kuronami
   {:themename "kuronami"
@@ -439,8 +439,8 @@
    :variable "#fffafa"
    :cursor "#e97f86"
    :selection "#2e41ac"
-   :warning "#e97f86"
-   :warning2  "#cdb38f"})
+   :error "#e97f86"
+   :warning  "#cdb38f"})
 
 (def organic-green
  {:themename "organic-green"
@@ -456,8 +456,8 @@
   :variable "#B8860B"
   :cursor "#225522"
   :selection "#C1F3CA"
-  :warning "#EF2929"
-  :warning2 "#CE5C00"})
+  :error "#EF2929"
+  :warning "#CE5C00"})
 
 (def contrastcolors
   [:mainfg :keyword :builtin :string :functionname :variable :type
