@@ -10,7 +10,7 @@ function cleanup () {
 trap "cleanup" EXIT
 
 cd $(dirname $0)
-if [ "$(docker image ls themecreator | wc -l)"=="2" ]; then
+if [ $(docker image ls themecreator | wc -l) -ne 2 ]; then
   echo "Building new image"
   docker build -t themecreator:test .
 fi
