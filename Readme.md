@@ -30,7 +30,7 @@ Download the textmate theme, then follow your editors instructions. For Visual S
 ### Atom:
 [Generate](https://atom.io/docs/latest/hacking-atom-creating-a-theme) a new color theme from within atom. Then Download the atom theme you made with ThemeCreator, and download [base.less](https://github.com/mswift42/themecreator/raw/master/base.less) and [syntax-variables.less](https://github.com/mswift42/themecreator/raw/master/syntax-variables.less). Now copy the 3 files, `colors.less`, `base.less` and `syntax-variables.less` into the `styles/` folder of the Atom generated theme.
 
-### Emacs:
+### Emacs (emacs 28.1 or better required)
 Download the emacs file. Copy the file to your ~/.emacs.d/themes directory and load it with `M-x load-theme`
 
 ### TextAdept:
