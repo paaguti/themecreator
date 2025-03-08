@@ -1,5 +1,6 @@
-[ThemeCreator](https://mswift42.github.io/themecreator/)
-==============
+ThemeCreator
+============
+Forked from [ThemeCreator](https://mswift42.github.io/themecreator/)
 
 ![Screenshot](https://github.com/mswift42/themecreator/raw/master/screenshots/tc1chromehamburg.png)
 
@@ -31,6 +32,8 @@ Download the textmate theme, then follow your editors instructions. For Visual S
 
 ### Emacs:
 Download the emacs file. Add a fitting package description to the first line. You can try your new theme by visiting your new theme with `C-x C-f <filename.el>`. You can install your new theme with: `M-x package-install-file <filename.el>`.
+
+*Note*: Use the `my-themes` branch for streamlined themes. This is an attempt to see how well face definitions integrate into themes.
 
 ### TextAdept:
 Download the TextAdept file. Copy it into your ~/.textadept/themes directory, edit your preferences to use it and restart TextAdept.
