@@ -270,7 +270,7 @@
    :constant "#a74f31"
    :comment "#a9a9a9"
    :selection "#dbece3"
-   :cursor "#dbece3"
+   :cursor "#b3ada6"
    :error "#ff1276"
    :warning "#ff4d12"})
 
