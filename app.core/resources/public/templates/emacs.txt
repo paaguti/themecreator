@@ -155,8 +155,9 @@
    `(term-color-magenta ((,class (:foreground ,builtin :background ,builtin))))
    `(term-color-cyan ((,class (:foreground ,str :background ,str))))
    `(term-color-white ((,class (:foreground ,fg2 :background ,fg2))))
-   `(corfu-default ((,class (:background ,bg4 :foreground ,fg2))))
-   `(corfu-current ((,class (:background ,bg2 :foreground ,fg1 :weight bold))))
+   ;; The default corfu selection seems good enough. Anyhow...
+   ;; `(corfu-default ((,class (:background ,bg4 :foreground ,fg2))))
+   ;; `(corfu-current ((,class (:background ,bg2 :foreground ,fg1 :weight bold))))
    `(yas-field-highlight-face ((t (:background ,selection))))
    `(show-paren-match ((,class (:foreground ,bg1 :background ,str))))
    `(show-paren-mismatch ((,class (:foreground ,bg1 :background ,error))))
