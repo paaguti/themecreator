@@ -1,4 +1,4 @@
-;;; {{themename}}-theme.el --- Theme
+;;; {{themename}}-theme.el --- Theme  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) {{year}} , {{themeauthor}}
 
