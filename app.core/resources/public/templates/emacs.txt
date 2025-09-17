@@ -104,7 +104,7 @@
    `(org-link ((,class (:underline t :foreground ,type ))))
    `(org-special-keyword ((,class (:foreground ,func))))
    `(org-block ((,class (:inherit fringe :foreground ,fg1))))
-   `(org-block-begin-line ((,class (:inherit org-block :foreground ,fg3))))
+   `(org-block-begin-line ((,class (:inherit org-block :background ,bg3))))
    `(org-block-end-line   ((,class (:inherit org-block-begin-line))))
    `(org-quote ((,class (:inherit org-block :slant italic))))
    `(org-verse ((,class (:inherit org-block :slant italic))))
