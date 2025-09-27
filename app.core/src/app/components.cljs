@@ -57,16 +57,17 @@
     [#(db/switch-theme db/sur) "sur"]
     [#(db/switch-theme db/timugrey-dark) "timugrey-dark"]
     [#(db/switch-theme db/organic-green) "organic-green"]
-    [#(db/switch-theme db/kuronami) "kuronami"]]])
+    [#(db/switch-theme db/kuronami) "kuronami"]
+    [#(db/switch-theme db/space-grayed) "space-grayed"]]])
 
 (defn language-select
   []
   [select-component "langdrop" "Languages"
-   [[#(toggle-preview prev/preview-javascript) "Javascript"]
-    [#(toggle-preview prev/preview-ruby) "Ruby"]
+   [[#(toggle-preview prev/preview-python) "Python"]
+    [#(toggle-preview prev/preview-c) "C"]
+    [#(toggle-preview prev/preview-javascript) "Javascript"]
     [#(toggle-preview prev/preview-typescript) "Typescript"]
-    [#(toggle-preview prev/preview-python) "Python"]
-    [#(toggle-preview prev/preview-c) "C"]]])
+    [#(toggle-preview prev/preview-ruby) "Ruby"]]])
 
 
 
