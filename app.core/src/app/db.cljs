@@ -461,6 +461,23 @@
   :error "#EF2929"
   :warning "#CE5C00"})
 
+(def space-grayed
+ {:themename "organic-green"
+  :mainfg "#FFFFFF"
+  :mainbg "#232830"
+  :builtin "#f08080"
+  :keyword "#89AAEB"
+  :const   "#B4EB89"
+  :comment "#6f7b87"
+  :functionname "#DCA432"
+  :string "#deb887"
+  :type "#5f9ea0"
+  :variable "#ebcb8b"
+  :cursor  "#DCA432"
+  :selection "#90886a"
+  :error   "#bf616a"
+  :warning  "#DCA432"})
+
 (def contrastcolors
   [:mainfg :keyword :builtin :string :functionname :variable :type
    :constant :comment])
