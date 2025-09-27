@@ -462,7 +462,7 @@
   :warning "#CE5C00"})
 
 (def space-grayed
- {:themename "organic-green"
+ {:themename "space-grayed"
   :mainfg "#FFFFFF"
   :mainbg "#232830"
   :builtin "#f08080"
