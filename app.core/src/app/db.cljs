@@ -259,7 +259,7 @@
 
 (def silkworm
   {:themename "silkworm"
-   :mainfg "#585858"
+   :mainfg "#282828"
    :mainbg "#ece3db"
    :keyword "#367a7f"
    :builtin "#0073b5"
@@ -268,7 +268,7 @@
    :variable "#a74f31"
    :type "#76690b"
    :constant "#a74f31"
-   :comment "#a9a9a9"
+   :comment "#797979"
    :selection "#dbece3"
    :cursor "#b3ada6"
    :error "#ff1276"
