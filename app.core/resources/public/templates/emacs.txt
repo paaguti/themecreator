@@ -69,7 +69,7 @@
    `(font-lock-regexp-face ((,class (:foreground ,str :weight bold))))
    `(font-lock-string-face ((,class (:foreground ,str))))
    `(font-lock-type-face ((,class (:foreground ,type ))))
-   `(font-lock-variable-name-face ((,class (:foreground ,var :underline t))))
+   `(font-lock-variable-name-face ((,class (:foreground ,var :slant italic))))
    `(font-lock-variable-use-face ((,class (:foreground ,var))))
    `(font-lock-warning-face ((,class (:foreground ,warning :background ,bg2))))
    `(term-color-black ((,class (:foreground ,fg2 :background ,unspec))))
