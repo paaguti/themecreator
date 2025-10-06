@@ -467,7 +467,7 @@
   :mainbg "#232830"
   :builtin "#f08080"
   :keyword "#89AAEB"
-  :const   "#B4EB89"
+  :constant  "#B4EB89"
   :comment "#6f7b87"
   :functionname "#DCA432"
   :string "#deb887"
