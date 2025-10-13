@@ -58,6 +58,7 @@
     [#(db/switch-theme db/timugrey-dark) "timugrey-dark"]
     [#(db/switch-theme db/organic-green) "organic-green"]
     [#(db/switch-theme db/kuronami) "kuronami"]
+    [#(db/switch-theme db/zeno) "zeno"]
     [#(db/switch-theme db/space-grayed) "space-grayed"]]])
 
 (defn language-select

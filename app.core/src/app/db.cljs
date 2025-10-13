@@ -478,6 +478,23 @@
   :error   "#bf616a"
   :warning  "#DCA432"})
 
+(def zeno
+ {:themename "zeno"
+  :mainfg "#E8F0FF"
+  :mainbg "#282A36"
+  :builtin "#BB98FC"
+  :comment "#6F7181"
+  :constant  "#A6E22E"
+  :functionname "#84B5FF"
+  :keyword "#66D9EF"
+  :string "#C1CAFF"
+  :type "#66D9EF"
+  :variable "#5FCA81"
+  :cursor  "#F8F8F0"
+  :selection "#ebcb8b"
+  :error   "#bf616a"
+  :warning  "#DCA432"})
+
 (def contrastcolors
   [:mainfg :keyword :builtin :string :functionname :variable :type
    :constant :comment])
