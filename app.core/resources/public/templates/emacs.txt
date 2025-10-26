@@ -167,6 +167,7 @@
    ;; `(corfu-default ((,class (:background ,bg4 :foreground ,fg2))))
    ;; `(corfu-current ((,class (:background ,bg2 :foreground ,fg1 :weight bold))))
    `(yas-field-highlight-face ((t (:background ,selection))))
+   `(magit-section-highlight ((t (:background ,selection))))
    `(show-paren-match ((,class (:foreground ,bg1 :background ,str))))
    `(show-paren-mismatch ((,class (:foreground ,bg1 :background ,error))))
    ;; emacs >= 26.1
