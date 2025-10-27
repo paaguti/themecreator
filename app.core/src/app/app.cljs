@@ -124,10 +124,10 @@
     ;;  (str (:themename @app-db) ".tmTheme") @tmthemetemplate]
     [template-download "emacslink" "Emacs"
      (str (:themename @app-db) "-theme.el") @emacstemplate ]
-    [template-download-textadept "talink" "Textadept 14+"
-     @tatemplate]
     [template-download "vimlink" "Vim"
      (str (:themename @app-db) ".vim") @vimtemplate]
+    [template-download-textadept "talink" "Textadept 14+"
+     @tatemplate]
     ;; [template-download "gnometerminallink" "Gnome Terminal"
     ;;  (str (:themename @app-db) ".sh") @gnometerminaltemplate]
     ]])
@@ -195,8 +195,8 @@
   ;; (GET "templates/intelli.txt" intellitemplate)
   ;; (GET "templates/tmtheme.txt" tmthemetemplate)
   (GET "templates/emacs.txt" emacstemplate)
-  (GET "templates/textadept-14.txt" tatemplate)
   (GET "templates/vim.txt" vimtemplate)
+  (GET "templates/textadept-14.txt" tatemplate)
   ;; (GET "templates/gnome-terminal.txt" gnometerminaltemplate)
   ;; (GET "templates/vscode/package.json" vscodepackagejsontemplate)
   ;; (GET "templates/vscode/vsc-extension-quickstart.md" vscodequickstarttemplate)
