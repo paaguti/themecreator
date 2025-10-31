@@ -88,8 +88,14 @@
    `(minibuffer-prompt ((,class (:foreground ,keyword :weight bold))))
    `(default-italic ((,class (:italic t))))
    `(link ((,class (:foreground ,const :underline t))))
-   `(mode-line ((,class (:box (:line-width 8 :style flat-button) :weight bold :foreground ,fg4 :background ,bg3))))
-   `(mode-line-inactive ((,class (:box (:line-width 8 :style flat-button) :foreground ,var :background ,bg2 :weight normal))))
+{{#hasdarkbg}}
+   `(mode-line ((,class (:box (:line-width 1 :color nil) :weight bold :foreground ,fg4 :background ,bg3))))
+   `(mode-line-inactive ((,class (:box (:line-width 1 :color nil :style pressed-button) :foreground ,var :background ,bg2 :weight normal))))
+{{/hasdarkbg}}
+{{^hasdarkbg}}
+   `(mode-line ((,class (:box (:line-width 1 :color nil) :weight bold :foreground ,fg4 :background ,bg2))))
+   `(mode-line-inactive ((,class (:box (:line-width 1 :color nil :style pressed-button) :foreground ,var :background ,bg3 :weight normal))))
+{{/hasdarkbg}}
    `(mode-line-buffer-id ((,class (:weight bold :foreground ,func :background ,unspec))))
    `(mode-line-highlight ((,class (:foreground ,keyword :box nil :weight bold))))
    `(mode-line-emphasis ((,class (:foreground ,fg1))))
@@ -168,12 +174,12 @@
    `(line-number ((t (:inherit fringe))))
    `(line-number-current-line ((t (:foreground ,fg6 :background ,bg3 :weight bold))))
    ;; emacs >= 27.1
-   `(tab-line              ((,class (:box (:line-width 8 :style flat-button) :background ,bg2 :foreground ,fg4))))
+   `(tab-line              ((,class (:background ,bg2 :foreground ,fg4))))
    `(tab-line-tab          ((,class (:inherit tab-line))))
-   `(tab-line-tab-inactive ((,class (:box (:line-width 8 :style flat-button) :background ,bg3 :foreground ,fg4))))
-   `(tab-line-tab-current  ((,class (:box (:line-width 8 :style flat-button) :background ,bg1 :foreground ,fg1))))
-   `(tab-line-highlight    ((,class (:box (:line-width 8 :style flat-button) :background ,bg1 :foreground ,fg2))))
-   `(tab-line-tab-modified ((,class (:box (:line-width 8 :style flat-button) :foreground ,str :weight bold)))))
+   `(tab-line-tab-inactive ((,class (:background ,bg3 :foreground ,fg4))))
+   `(tab-line-tab-current  ((,class (:background ,bg1 :foreground ,fg1))))
+   `(tab-line-highlight    ((,class (:background ,bg1 :foreground ,fg2))))
+   `(tab-line-tab-modified ((,class (:foreground ,str :weight bold)))))
   (when (boundp 'font-lock-regexp-face)
     (custom-theme-set-faces
      '{{themename}}
