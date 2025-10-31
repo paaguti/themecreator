@@ -88,14 +88,8 @@
    `(minibuffer-prompt ((,class (:foreground ,keyword :weight bold))))
    `(default-italic ((,class (:italic t))))
    `(link ((,class (:foreground ,const :underline t))))
-{{#hasdarkbg}}
-   `(mode-line ((,class (:box (:line-width 1 :color nil) :weight bold :foreground ,fg4 :background ,bg3))))
-   `(mode-line-inactive ((,class (:box (:line-width 1 :color nil :style pressed-button) :foreground ,var :background ,bg2 :weight normal))))
-{{/hasdarkbg}}
-{{^hasdarkbg}}
-   `(mode-line ((,class (:box (:line-width 1 :color nil) :weight bold :foreground ,fg4 :background ,bg2))))
-   `(mode-line-inactive ((,class (:box (:line-width 1 :color nil :style pressed-button) :foreground ,var :background ,bg3 :weight normal))))
-{{/hasdarkbg}}
+   `(mode-line ((,class (:box (:line-width 8 :style flat-button) :weight bold :foreground ,fg4 :background ,bg3))))
+   `(mode-line-inactive ((,class (:box (:line-width 8 :style flat-button) :foreground ,var :background ,bg2 :weight normal))))
    `(mode-line-buffer-id ((,class (:weight bold :foreground ,func :background ,unspec))))
    `(mode-line-highlight ((,class (:foreground ,keyword :box nil :weight bold))))
    `(mode-line-emphasis ((,class (:foreground ,fg1))))
