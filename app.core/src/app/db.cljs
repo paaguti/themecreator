@@ -354,7 +354,7 @@
    :string "#8FBCBB"
    :type "#A3BE8C"
    :variable "#88C0D0"
-   :cursor "#c7c7c7"
+   :cursor "#f0f0f0"
    :selection "#4d576a"
    :error "#BF616A"
    :warning "#D08770"})
@@ -371,7 +371,7 @@
    :string "#A3BE8C"
    :type "#A3BE8C"
    :variable "#88C0D0"
-   :cursor "#D8DEE9"
+   :cursor "#f0f0f0"
    :selection "#434C5E"
    :error "#BF616A"
    :warning "#D08770"})
@@ -388,7 +388,7 @@
    :string "#a3be8c"
    :type "#8fbcbb"
    :variable "#e5e9f0"
-   :cursor "#5571A5"
+   :cursor "#f0f0f0"
    :selection "#30555a"
    :error "#bf616a"
    :warning "#d08770"})
