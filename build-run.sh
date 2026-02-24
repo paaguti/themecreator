@@ -12,7 +12,7 @@ trap "cleanup" EXIT
 cd $(dirname $0)
 if [ $(docker image ls themecreator | wc -l) -ne 2 ]; then
   echo "Building new image"
-  docker buildx build --load --tag themecreator:test --file ./Dockerfile
+  docker buildx build --tag themecreator:test . --file Dockerfile
 fi
 docker run --network=host -it \
        -u $UID:$GID -v $(pwd)/app.core:/usr/src/app \
