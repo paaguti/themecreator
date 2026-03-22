@@ -284,6 +284,7 @@
              :bg2 (lighten (:mainbg theme) 0.08)
              :bg3 (lighten (:mainbg theme) 0.16)
              :bg4 (lighten (:mainbg theme) 0.24)
+	     :bg5 (lighten (:mainbg theme) 0.12)
              :docstring (darken (:string theme) 0.16)
              :year (current-year))
       (assoc theme
@@ -296,5 +297,6 @@
              :bg2 (darken (:mainbg theme) 0.08)
              :bg3 (darken (:mainbg theme) 0.16)
              :bg4 (darken (:mainbg theme) 0.24)
+             :bg5 (darken (:mainbg theme) 0.12)
              :docstring (lighten (:string theme) 0.16)
              :year (current-year)))))
