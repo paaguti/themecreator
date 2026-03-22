@@ -40,6 +40,7 @@
       (bg2 "{{bg2}}")
       (bg3 "{{bg3}}")
       (bg4 "{{bg4}}")
+      (bg5 "{{bg5}}")
       (builtin "{{builtin}}")
       (keyword "{{keyword}}")
       (const   "{{constant}}")
